@@ -1,4 +1,13 @@
-const Card = () => {
+interface Props{
+    Card : {
+        title: string
+        para: string
+        src: string
+    }
+}
+
+
+const Card = ({Card}: Props) => {
     return (
         <a
             href="#"
@@ -13,17 +22,17 @@ const Card = () => {
         >
             <img
                 className="object-cover w-full h-64 md:h-auto md:w-48 rounded-xl mb-4 md:mb-0"
-                src="/download.jpg"
+                src={Card.src}
                 alt=""
             />
 
             <div className="flex flex-col justify-between md:p-4 leading-normal">
                 <h5 className="text-2xl font-semibold text-white drop-shadow-sm mb-3">
-                    PAIN!
+                    {Card.title}
                 </h5>
 
                 <p className="text-white/80 mb-6">
-                    When you understand meaning behind pain then you feel what happiness is...
+                    {Card.para}
                 </p>
 
                 <button

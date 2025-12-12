@@ -9,7 +9,7 @@ const Navbar = () => {
               <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                   <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                       <img src="https://flowbite.com/docs/images/logo.svg" className="h-7" alt="Flowbite Logo"/>
-                      <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">Flowbite</span>
+                      <span className="self-center text-xl text-heading font-bold whitespace-nowrap text-white">DESIGLITCH</span>
                   </a>
                   <button data-collapse-toggle="navbar-default" type="button"
                           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
